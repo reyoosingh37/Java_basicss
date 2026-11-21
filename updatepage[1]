@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Employee</title>
+<style type="text/css">
+body {
+	background-size: cover;
+	background-color: #ffc9b9;
+}
+
+h1 {
+	color: #182000;
+}
+
+input, button {
+	padding: 10px;
+	border-radius: 20px;
+}
+
+button {
+	background-color: #FEFAE0;
+	border: #283618 2px solid;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+	<center>
+		<a href="createpage"> <button>Create Employee</button> </a>
+		<a href="allemployees"> <button>View All Employees</button> </a>
+		<a href="search.jsp"> <button>Search Employee</button> </a>
+	</center>
+
+	<h1>Update Employee</h1>
+
+	<form action="update" method="get">
+		<input type="text" name="id" value="1" readonly><br><br>
+		<input type="text" name="name" value="megha" required><br><br>
+		<input type="email" name="email" value="megha@gmail.com" required><br><br>
+		<input type="tel" name="phone" value="9876543210" required><br><br>
+		<input type="text" name="department" value="cse" required><br><br>
+		<input type="text" name="position" value="professor" required><br><br>
+		<input type="number" name="salary" value="800000.0" required><br><br>
+		<input type="text" name="address" value="xyz" required><br><br>
+		<input type="text" name="dateOfJoining" value="aug" required><br><br>
+		<button type="submit">Update</button>
+	</form>
+
+</body>
+</html>
